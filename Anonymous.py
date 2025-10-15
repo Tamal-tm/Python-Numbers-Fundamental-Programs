@@ -8,11 +8,11 @@ nterms= int(input("Enter no. of terms: "))
 # list(...) → converts the map object into a list of results.
 
 result=list(map(lambda x: 2 ** x, range (nterms+1))) # map will let the function (lambda x) perform on all the iterables.
-
 print(result)
 
 for i in range(nterms+1):
     print("The value of 2 raised to the power", i, "is", result[i])
+
 
 
 
