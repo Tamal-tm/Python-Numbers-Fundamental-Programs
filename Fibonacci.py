@@ -4,6 +4,7 @@ b=1
 num=int(input("Enter no. of terms: "))
 if num == 1:
     print(a)
+    
 else:
     print(a)
     print(b)
@@ -28,4 +29,5 @@ else:
     print("Fibonacci series: ")
     for i in range(num):
         print(fibo(i))
+
 
