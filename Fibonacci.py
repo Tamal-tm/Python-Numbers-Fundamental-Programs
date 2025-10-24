@@ -13,6 +13,7 @@ else:
         a=b
         b=c
         print(c)
+        
 # Using Recursion
 
 def fibo(n):
@@ -28,6 +29,7 @@ else:
     print("Fibonacci series: ")
     for i in range(num):
         print(fibo(i))
+
 
 
 
