@@ -24,11 +24,13 @@ def fibo(n):
 
 num=int(input("Enter no. of terms: "))
 if num <= 0:
+    
     print("Enter a positive no.")
 else:
     print("Fibonacci series: ")
     for i in range(num):
         print(fibo(i))
+
 
 
 
