@@ -10,10 +10,12 @@ def findHCF(x,y):
 
 
 
+
 a=int(input("Enter 1st number: "))
 b=int(input("Enter 2nd number: "))
 
 print("Hcf of given two numbers: ", findHCF(a,b))
+
 
 
 
